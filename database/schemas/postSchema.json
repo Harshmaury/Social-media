@@ -1,0 +1,21 @@
+{
+    "title": "Post Schema",
+    "type": "object",
+    "properties": {
+        "content": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "createdAt": {
+            "type": "string",
+            "format": "date-time"
+        }
+    },
+    "required": [
+        "content",
+        "author"
+    ]
+}
